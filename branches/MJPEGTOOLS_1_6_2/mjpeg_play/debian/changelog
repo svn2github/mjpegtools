@@ -1,0 +1,30 @@
+mjpegtools (1.6.1.93-3) unstable; urgency=low
+
+  * remove libquicktime4linux-dev from Build-Depends, need libquicktime-dev even on woody.
+
+ -- Kawamata/Hitoshi <hitoshi.kawamata@nifty.com>  Thu, 29 Jan 2004 10:50:16 +0900
+
+mjpegtools (1.6.1.93-2) unstable; urgency=low
+
+  * Using libtool -release, rename package libmjpegtools0 to libmjpegtools-1.6.
+
+ -- Kawamata/Hitoshi <hitoshi.kawamata@nifty.com>  Sun, 25 Jan 2004 16:27:05 +0900
+
+mjpegtools (1.6.1.93-1) unstable; urgency=low
+
+  * Add mjpegtools.{postinst,prerm} to use install-info without automatically adding by dh_installinfo.
+  * Limit Build-Depends libjpeg-mmx-dev [i386] to libjpeg-mmx-dev (>= 0.1.4) [i386].
+
+ -- Kawamata/Hitoshi <hitoshi.kawamata@nifty.com>  Mon, 29 Dec 2003 14:33:58 +0900
+
+mjpegtools (1.6.1.93-0) unstable; urgency=low
+
+  * New upstream release.
+
+ -- KAWAMATA Hitoshi <hitoshi.kawamata@nifty.com>  Tue, 23 Dec 2003 15:00:33 +0900
+
+mjpegtools (1.6.1.92-0) unstable; urgency=low
+
+  * Initial Release.
+
+ -- KAWAMATA Hitoshi <hitoshi.kawamata@nifty.com>  Sat, 20 Dec 2003 09:00:00 +0900
